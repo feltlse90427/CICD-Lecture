@@ -74,4 +74,4 @@ jobs:
             - name: Greetings
               env:
                 GREET_STEP: 'Login'
-              run: echo $GREET_ROOT $GREET_JOB, das Passwort für $GREET_STEP ist ${{ secrets.PASSWORD }}! 
+              run: echo $GREET_ROOT $GREET_JOB, das Passwort für $GREET_STEP ist ${{ secrets.GREET_PASSWORD }}! 
