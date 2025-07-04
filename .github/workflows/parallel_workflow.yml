@@ -6,6 +6,7 @@ on:
             - main
     workflow_dispatch:
 env:
+    Test: test
     GREET_ROOT: 'Servus'
 jobs:
     build-test:
